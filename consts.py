@@ -1,0 +1,2 @@
+INDEX_NAME = "AL_RESUME_VECTORDB"
+FILEPATH = "./AL_Resume.pdf"
