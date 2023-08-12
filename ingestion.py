@@ -4,6 +4,7 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.document_loaders import PyPDFLoader
 from langchain.vectorstores import FAISS
 from langchain.text_splitter import RecursiveCharacterTextSplitter
+from consts import FILEPATH, INDEX_NAME
 
 if Path("./.env").is_file():
     from dotenv import load_dotenv
